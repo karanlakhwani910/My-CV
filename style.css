@@ -1,0 +1,46 @@
+body{
+    background-color: whitesmoke;
+}
+.introduction{
+    margin: 10% 0 0 15%;
+    font-size: 150%;
+}
+
+.introduction a{
+    text-decoration: none;
+}
+.introduction h1{
+    font-size: 350%;
+    font-family: serif;
+}
+.name-section{
+    font-size: 140%;
+}
+.features{
+    margin: 4% 0% 0 15%;
+}
+.features h1{
+    color: #5858D6;
+}
+
+@media screen and (max-width: 995px){
+    
+    .introduction{
+        width: 90%;
+        margin: 2% auto 0%;
+    }
+    .features{
+        width: 90%;
+        margin: 2% auto 0%;
+    }
+}
+.topic{
+    font-size: 200%;
+}
+.tenure{
+    font-size: 150%;
+    color: grey;
+}
+.post{
+    font-size: 200%;
+}
